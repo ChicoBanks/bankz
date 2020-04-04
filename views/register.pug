@@ -1,0 +1,20 @@
+h1 Register
+    form(action="/" method="POST")
+        label(for="name" value="Name")
+            input(
+                type="name"
+                placeholder="Enter Name")
+        label(for="password">Password)
+            input(
+                type="password"
+                id="password"
+                name="password"
+                class="form-control"
+                placeholder="Create Password")
+        label(for="password2" value="Confirm Password")
+            input(
+                type="password"
+                placeholder="Confirm Password")
+        button(type="submit" value="Register")
+p Have An Account? 
+    a(href="/login") Login
